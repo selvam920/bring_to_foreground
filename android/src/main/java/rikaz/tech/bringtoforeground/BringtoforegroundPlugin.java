@@ -38,6 +38,7 @@ public class BringtoforegroundPlugin implements FlutterPlugin, MethodCallHandler
     public static void registerWith(Registrar registrar) {
         final MethodChannel channel = new MethodChannel(registrar.messenger(), "bringtoforeground");
         channel.setMethodCallHandler(new BringtoforegroundPlugin());
+        context = registrar.context();
     }
 
     @Override

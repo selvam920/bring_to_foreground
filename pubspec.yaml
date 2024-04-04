@@ -1,8 +1,7 @@
 name: bringtoforeground
 description: A plugin to bring a backgrounded android  application to the foreground
-version: 0.0.1
-author: MajedDH
-homepage:
+version: 0.0.2
+homepage: https://github.com/MajedDH/bring_to_foreground
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
